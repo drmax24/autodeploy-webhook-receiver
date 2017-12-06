@@ -1,0 +1,143 @@
+[2017-12-06 21:25:29]
+{"object_kind":"push","event_name":"push","before":"ace24559192399f0c2e12690bf0f2c20728a3f2d","after":"c530253b905713a23a448397a4a6a5160a69b102","ref":"refs/heads/master","checkout_sha":"c530253b905713a23a448397a4a6a5160a69b102","message":null,"user_id":8,"user_name":"Max V","user_username":"drmax24","user_email":"mv@bstd.ru","user_avatar":"https://secure.gravatar.com/avatar/6ab675a3e72679875f7a2f164bf6e5de?s=80\u0026d=identicon","project_id":5,"project":{"name":"static.toyota.ru","description":"","web_url":"https://gitlab.bstd.ru/toyota/static.toyota.ru","avatar_url":null,"git_ssh_url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","git_http_url":"https://gitlab.bstd.ru/toyota/static.toyota.ru.git","namespace":"Toyota","visibility_level":10,"path_with_namespace":"toyota/static.toyota.ru","default_branch":"master","ci_config_path":null,"homepage":"https://gitlab.bstd.ru/toyota/static.toyota.ru","url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","ssh_url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","http_url":"https://gitlab.bstd.ru/toyota/static.toyota.ru.git"},"commits":[{"id":"c530253b905713a23a448397a4a6a5160a69b102","message":"bb\n","timestamp":"2017-12-06T21:24:56+03:00","url":"https://gitlab.bstd.ru/toyota/static.toyota.ru/commit/c530253b905713a23a448397a4a6a5160a69b102","author":{"name":"Max Vetryakov","email":"max@bstd-drmax-air.local"},"added":[],"modified":["test/iframe-resizer-bstd/iframe.html"],"removed":[]}],"total_commits_count":1,"repository":{"name":"static.toyota.ru","url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","description":"","homepage":"https://gitlab.bstd.ru/toyota/static.toyota.ru","git_http_url":"https://gitlab.bstd.ru/toyota/static.toyota.ru.git","git_ssh_url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","visibility_level":10}}[2017-12-06 21:25:29]
+{"object_kind":"push","event_name":"push","before":"ace24559192399f0c2e12690bf0f2c20728a3f2d","after":"c530253b905713a23a448397a4a6a5160a69b102","ref":"refs/heads/master","checkout_sha":"c530253b905713a23a448397a4a6a5160a69b102","message":null,"user_id":8,"user_name":"Max V","user_username":"drmax24","user_email":"mv@bstd.ru","user_avatar":"https://secure.gravatar.com/avatar/6ab675a3e72679875f7a2f164bf6e5de?s=80\u0026d=identicon","project_id":5,"project":{"name":"static.toyota.ru","description":"","web_url":"https://gitlab.bstd.ru/toyota/static.toyota.ru","avatar_url":null,"git_ssh_url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","git_http_url":"https://gitlab.bstd.ru/toyota/static.toyota.ru.git","namespace":"Toyota","visibility_level":10,"path_with_namespace":"toyota/static.toyota.ru","default_branch":"master","ci_config_path":null,"homepage":"https://gitlab.bstd.ru/toyota/static.toyota.ru","url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","ssh_url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","http_url":"https://gitlab.bstd.ru/toyota/static.toyota.ru.git"},"commits":[{"id":"c530253b905713a23a448397a4a6a5160a69b102","message":"bb\n","timestamp":"2017-12-06T21:24:56+03:00","url":"https://gitlab.bstd.ru/toyota/static.toyota.ru/commit/c530253b905713a23a448397a4a6a5160a69b102","author":{"name":"Max Vetryakov","email":"max@bstd-drmax-air.local"},"added":[],"modified":["test/iframe-resizer-bstd/iframe.html"],"removed":[]}],"total_commits_count":1,"repository":{"name":"static.toyota.ru","url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","description":"","homepage":"https://gitlab.bstd.ru/toyota/static.toyota.ru","git_http_url":"https://gitlab.bstd.ru/toyota/static.toyota.ru.git","git_ssh_url":"git@gitlab.bstd.ru:toyota/static.toyota.ru.git","visibility_level":10}}array(17) {
+  ["object_kind"]=>
+  string(4) "push"
+  ["event_name"]=>
+  string(4) "push"
+  ["before"]=>
+  string(40) "ace24559192399f0c2e12690bf0f2c20728a3f2d"
+  ["after"]=>
+  string(40) "c530253b905713a23a448397a4a6a5160a69b102"
+  ["ref"]=>
+  string(17) "refs/heads/master"
+  ["checkout_sha"]=>
+  string(40) "c530253b905713a23a448397a4a6a5160a69b102"
+  ["message"]=>
+  NULL
+  ["user_id"]=>
+  int(8)
+  ["user_name"]=>
+  string(5) "Max V"
+  ["user_username"]=>
+  string(7) "drmax24"
+  ["user_email"]=>
+  string(10) "mv@bstd.ru"
+  ["user_avatar"]=>
+  string(84) "https://secure.gravatar.com/avatar/6ab675a3e72679875f7a2f164bf6e5de?s=80&d=identicon"
+  ["project_id"]=>
+  int(5)
+  ["project"]=>
+  array(15) {
+    ["name"]=>
+    string(16) "static.toyota.ru"
+    ["description"]=>
+    string(0) ""
+    ["web_url"]=>
+    string(46) "https://gitlab.bstd.ru/toyota/static.toyota.ru"
+    ["avatar_url"]=>
+    NULL
+    ["git_ssh_url"]=>
+    string(46) "git@gitlab.bstd.ru:toyota/static.toyota.ru.git"
+    ["git_http_url"]=>
+    string(50) "https://gitlab.bstd.ru/toyota/static.toyota.ru.git"
+    ["namespace"]=>
+    string(6) "Toyota"
+    ["visibility_level"]=>
+    int(10)
+    ["path_with_namespace"]=>
+    string(23) "toyota/static.toyota.ru"
+    ["default_branch"]=>
+    string(6) "master"
+    ["ci_config_path"]=>
+    NULL
+    ["homepage"]=>
+    string(46) "https://gitlab.bstd.ru/toyota/static.toyota.ru"
+    ["url"]=>
+    string(46) "git@gitlab.bstd.ru:toyota/static.toyota.ru.git"
+    ["ssh_url"]=>
+    string(46) "git@gitlab.bstd.ru:toyota/static.toyota.ru.git"
+    ["http_url"]=>
+    string(50) "https://gitlab.bstd.ru/toyota/static.toyota.ru.git"
+  }
+  ["commits"]=>
+  array(1) {
+    [0]=>
+    array(8) {
+      ["id"]=>
+      string(40) "c530253b905713a23a448397a4a6a5160a69b102"
+      ["message"]=>
+      string(3) "bb
+"
+      ["timestamp"]=>
+      string(25) "2017-12-06T21:24:56+03:00"
+      ["url"]=>
+      string(94) "https://gitlab.bstd.ru/toyota/static.toyota.ru/commit/c530253b905713a23a448397a4a6a5160a69b102"
+      ["author"]=>
+      array(2) {
+        ["name"]=>
+        string(13) "Max Vetryakov"
+        ["email"]=>
+        string(24) "max@bstd-drmax-air.local"
+      }
+      ["added"]=>
+      array(0) {
+      }
+      ["modified"]=>
+      array(1) {
+        [0]=>
+        string(36) "test/iframe-resizer-bstd/iframe.html"
+      }
+      ["removed"]=>
+      array(0) {
+      }
+    }
+  }
+  ["total_commits_count"]=>
+  int(1)
+  ["repository"]=>
+  array(7) {
+    ["name"]=>
+    string(16) "static.toyota.ru"
+    ["url"]=>
+    string(46) "git@gitlab.bstd.ru:toyota/static.toyota.ru.git"
+    ["description"]=>
+    string(0) ""
+    ["homepage"]=>
+    string(46) "https://gitlab.bstd.ru/toyota/static.toyota.ru"
+    ["git_http_url"]=>
+    string(50) "https://gitlab.bstd.ru/toyota/static.toyota.ru.git"
+    ["git_ssh_url"]=>
+    string(46) "git@gitlab.bstd.ru:toyota/static.toyota.ru.git"
+    ["visibility_level"]=>
+    int(10)
+  }
+}
+string(1214) "From gitlab.bstd.ru:toyota/static.toyota.ru
+   ace2455..c530253  master     -> origin/master
+ * [new tag]         DEPLOY-434 -> DEPLOY-434
+Updating ace2455..c530253
+Fast-forward
+ test/iframe-resizer-bstd/iframe.html | 1 +
+ 1 file changed, 1 insertion(+)
+Стейджинг /work/www/dev/toyota/static/static.toyota.ru обновлен успешно! Ветка - master
+
+Была выполнена команда:
+git pull
+
+Вы можете использовать свой скрипт автообновления, поместив его в корень проекта и назвав install_release.sh
+From gitlab.bstd.ru:toyota/static.toyota.ru
+   ace2455..c530253  master     -> origin/master
+ * [new tag]         DEPLOY-434 -> DEPLOY-434
+Updating ace2455..c530253
+Fast-forward
+ test/iframe-resizer-bstd/iframe.html | 1 +
+ 1 file changed, 1 insertion(+)
+Стейджинг /work/www/dev/view/static-toyota/www обновлен успешно! Ветка - master
+
+Была выполнена команда:
+git pull
+
+Вы можете использовать свой скрипт автообновления, поместив его в корень проекта и назвав install_release.sh
+"
+string(15) "invalid_payload"
