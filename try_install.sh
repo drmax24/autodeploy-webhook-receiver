@@ -54,9 +54,9 @@ case "$ORIGIN_URL" in
 esac
 
 if [ "$IS_HTTP" = 1 ]; then
-#    echo -e ":x: Пропущен http репозиторий: "
-#    pwd
-#    echo -e "\n";
+    echo -e ":x: Пропущен http репозиторий: "
+    pwd
+    echo -e "\n";
     exit
 fi
 
@@ -67,19 +67,19 @@ branch_name=${branch_name##refs/heads/}
   if [ $# != 3 ] || [ $3 = $branch_name ]; then
        if [ -f "$(pwd)/install_release.sh" ]; then
          chmod 777 $(pwd)/install_release.sh && $(pwd)/install_release.sh && 
-         echo -e "${Gre}Стейджинг $(pwd) обновлен успешно! Ветка - $branch_name${RCol}" &&
-         echo -e "\n${Gre}Обновление произведено с помощью файла $(pwd)/install_release.sh${RCol}" 
+         echo -e "Стейджинг *$(pwd)* обновлен успешно! Ветка - $branch_name" &&
+         echo -e "Обновление произведено с помощью файла $(pwd)/install_release.sh" 
        else
-         git pull || { echo "${Bla}${On_Red}При обновлении стейджинга $(pwd) произошла ошибка${RCol}" ; exit 1; }
+         git pull -q || { echo -e "При обновлении стейджинга $(pwd) произошла ошибка" ; }
          #git fetch origin || { echo "${Bla}${On_Red}При обновлении стейджинга $(pwd) произошла ошибка${RCol}" ; exit 1; }
          #git reset --hard FETCH_HEAD || { echo "${Bla}${On_Red}При обновлении стейджинга $(pwd) произошла ошибка${RCol}" ; exit 1; }
-         echo -e "${Gre}Стейджинг $(pwd) обновлен успешно! Ветка - $branch_name${RCol}" 
-         echo -e "\n${Gre}Была выполнена команда:${RCol}"
-         echo -e "${Gre}git pull${RCol}"
+         echo -e "Стейджинг *$(pwd)* обновлен успешно! Ветка - $branch_name"
+         echo -e "Была выполнена команда"
+         echo -e "git pull --quiet"
          #echo -e "${Gre}Были выполнены команды:${RCol}" 
          #echo -e "${Gre}git fetch origin${RCol}" 
          #echo -e "${Gre}git reset --hard FETCH_HEAD${RCol}" 
-         echo -e "\n${Gre}Вы можете использовать свой скрипт автообновления, поместив его в корень проекта и назвав install_release.sh${RCol}"
+         echo -e "\nВы можете использовать свой скрипт автообновления, поместив его в корень проекта и назвав install_release.sh\n"
        fi
   fi
 fi

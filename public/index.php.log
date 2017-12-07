@@ -1,3 +1,0 @@
-[06-Dec-2017 21:23:02 Europe/Moscow] PHP Notice:  Undefined index: project in /work/hook/public/index.php on line 82
-[06-Dec-2017 21:23:02 Europe/Moscow] PHP Stack trace:
-[06-Dec-2017 21:23:02 Europe/Moscow] PHP   1. {main}() /work/hook/public/index.php:0

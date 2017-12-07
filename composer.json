@@ -1,0 +1,6 @@
+{
+    "name": "dev/hook",
+    "require": {
+        "maknz/slack": "^1.7"
+    }
+}
