@@ -212,8 +212,29 @@ function env($key, $default = null)
         case '(null)':
             return;
     }
-    if (Str::startsWith($value, '"') && Str::endsWith($value, '"')) {
+    if (startsWith($value, '"') && endsWith($value, '"')) {
         return substr($value, 1, -1);
     }
     return $value;
+}
+
+
+function startsWith($haystack, $needles)
+{
+    foreach ((array) $needles as $needle) {
+        if ($needle !== '' && substr($haystack, 0, strlen($needle)) === (string) $needle) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function endsWith($haystack, $needles)
+{
+    foreach ((array) $needles as $needle) {
+        if (substr($haystack, -strlen($needle)) === (string) $needle) {
+            return true;
+        }
+    }
+    return false;
 }
