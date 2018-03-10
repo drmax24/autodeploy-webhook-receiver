@@ -67,20 +67,20 @@ branch_name=${branch_name##refs/heads/}
   if [ $# != 3 ] || [ $3 = $branch_name ]; then
        if [ -f "$(pwd)/install_release.sh" ]; then
          chmod 777 $(pwd)/install_release.sh && $(pwd)/install_release.sh && 
-         echo -e "Стейджинг *$(pwd)* обновлен успешно! Ветка - $branch_name" &&
+         echo -e ":white_check_mark: Стейджинг *$(pwd)* обновлен успешно! Ветка - $branch_name" &&
          echo -e "Обновление произведено с помощью файла $(pwd)/install_release.sh" 
        else
          git pull -q || { echo -e "При обновлении стейджинга $(pwd) произошла ошибка" ; }
          #git fetch origin || { echo "${Bla}${On_Red}При обновлении стейджинга $(pwd) произошла ошибка${RCol}" ; exit 1; }
          #git reset --hard FETCH_HEAD || { echo "${Bla}${On_Red}При обновлении стейджинга $(pwd) произошла ошибка${RCol}" ; exit 1; }
-         echo -e "Стейджинг *$(pwd)* обновлен успешно! Ветка - $branch_name"
+         echo -e ":white_check_mark: Стейджинг *$(pwd)* обновлен успешно! Ветка - $branch_name"
          echo -e "Была выполнена команда"
          echo -e "git pull --quiet"
          #echo -e "${Gre}Были выполнены команды:${RCol}" 
          #echo -e "${Gre}git fetch origin${RCol}" 
          #echo -e "${Gre}git reset --hard FETCH_HEAD${RCol}" 
          echo -e "\nВы можете использовать свой скрипт автообновления, поместив его в корень проекта и назвав install_release.sh\n"
-       fi
+     fi
   fi
 fi
 

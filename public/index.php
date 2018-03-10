@@ -100,10 +100,15 @@ $yesterday = strtotime("today") - 1;
 
 
 
+//$repositoryName   = $data['project']['name'];
+$repositoryName = explode('/', $data['project']['ssh_url']);
+$repositoryName = end($repositoryName);
+$repositoryName = explode('.git', $repositoryName);
+$repositoryName = $repositoryName[0];
 
-$repositoryName   = $data['project']['name'];
+//"ssh_url":"git@gitlab.bstd.ru:toyota/style-coding.git"
+
 $repositoryBranch = explode('/', $data['ref']);
-
 $repositoryBranch = end($repositoryBranch);
 
 
@@ -111,6 +116,8 @@ if ($repositoryBranch && $repositoryName){
 //$cmd = "../install_release.sh x $repositoryName $repositoryBranch 2>&1";
 
     $cmd = 'find -H /work/www/dev -name .git -type d -not -path "*/#DEPRECATED/*" -mindepth 1 -maxdepth 4 -execdir /work/hook/try_install.sh x '.$repositoryName.' '.$repositoryBranch.' \\; 2>&1';
+    var_dump('cmd:');
+    var_dump($cmd);
 
     $result = shell_exec($cmd);
 
@@ -120,12 +127,13 @@ if ($repositoryBranch && $repositoryName){
     
     //$msg = "$date\n"."Пуш в центральный репозиторий завершен. $repositoryName $repositoryBranch";
     //slack($msg);
+    slack(':rotating_light: ' . $date.' '.$data['user_name'].' произвел пуш в '.$repositoryName.' '.$repositoryBranch);
     slack($result);
     
     //slack('ок :x:');
 } else {
     if (!$repositoryName){
-        slack('Не указан репозиторий, странно');
+        slack('Не указан репозиторий, странно. ssh_url: '.$data['project']['ssh_url']);
     } elseif(!$repositoryBranch) {
         slack('Нет ветки, странно');
     } else {
