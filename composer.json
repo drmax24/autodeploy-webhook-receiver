@@ -1,6 +1,7 @@
 {
     "name": "dev/hook",
     "require": {
-        "maknz/slack": "^1.7"
+        "maknz/slack": "^1.7",
+        "vlucas/phpdotenv": "^2.4"
     }
 }
