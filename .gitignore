@@ -3,3 +3,4 @@ composer.lock
 .bak
 *.log
 .env
+.idea
