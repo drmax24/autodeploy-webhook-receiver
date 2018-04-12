@@ -1,4 +1,6 @@
 # Autodeploy WebHook Receiver
+> **Note:** This project is in alpha phase. However it is workable and safe.
+
 
 Simple yet very powerfull CI hook.  
 Almost no knowledge needed.  
