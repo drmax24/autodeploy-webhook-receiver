@@ -4,3 +4,4 @@ composer.lock
 *.log
 .env
 .idea
+.DS_Store
