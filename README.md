@@ -4,8 +4,7 @@
 
 Simple yet very powerful CI hook.  
 Almost no knowledge needed.  
-If your technical team is less than 30 and operates several servers. You can have a powerful CI within 2 hours. No futher time investments.
-If you need a CI that can orchestrate 300 servers like Netflix or if you are planning to spend more than 1000 hours. Then this repository will not help you very much.
+If your technical team is less than 30 and operates several servers. You can have a powerful CI within 2 hours. No further time investments. If you need a CI that can orchestrate 300 servers like Netflix or if you are planning to spend more than 1000 hours. Then this repository will not help you very much.
 
 
 ### Introduction Diagram
